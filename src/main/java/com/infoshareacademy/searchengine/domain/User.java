@@ -1,15 +1,19 @@
 package com.infoshareacademy.searchengine.domain;
 
 public class User {
+    private int id;
+    private String name;
+    private String surname;
+    private String login;
+    private int age;
+
     public int getId() {
-        return Id;
+        return id;
     }
 
     public void setId(int id) {
-        Id = id;
+        this.id = id;
     }
-
-
 
     public String getName() {
         return name;
@@ -42,10 +46,8 @@ public class User {
     public void setAge(int age) {
         this.age = age;
     }
-    private int Id;
-    private String name;
-    private String surname;
-    private String login;
-    private int age;
+
+
+
 
 }

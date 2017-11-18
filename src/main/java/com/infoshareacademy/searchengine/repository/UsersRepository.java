@@ -1,4 +1,4 @@
-package com.infoshareacademy.searchengine.domain.searchengine;
+package com.infoshareacademy.searchengine.repository;
 
 import com.infoshareacademy.searchengine.domain.User;
 
